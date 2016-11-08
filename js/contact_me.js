@@ -18,8 +18,9 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                dataType: 'jsonp',
-                url: "http://getsimpleform.com/messages/ajax?form_api_token=9b775b39044c26ce328b6d56663e12e8",
+                dataType: "json",
+                url: "https://formspree.io/febil.tvr@gmail.com",
+                method:'POST',
                 data: {
                     name: name,
                     phone: phone,
