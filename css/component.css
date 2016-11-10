@@ -166,7 +166,7 @@
 .slideshow nav span {
 	position: fixed;
 	z-index: 1000;
-	color: #fff;
+	color: #000;
 	text-align: center;
 	padding: 3%;
 	cursor: pointer;
@@ -178,6 +178,7 @@
 	top: 50%;
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
+	color:#000;
 }
 
 .slideshow nav span.nav-next {
